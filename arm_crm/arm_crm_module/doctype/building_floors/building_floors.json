@@ -1,0 +1,39 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2026-04-19 16:43:58.278627",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "\u0627\u0644\u0623\u062f\u0648\u0627\u0631_section",
+  "adwar"
+ ],
+ "fields": [
+  {
+   "fieldname": "\u0627\u0644\u0623\u062f\u0648\u0627\u0631_section",
+   "fieldtype": "Section Break",
+   "label": "\u0627\u0644\u0623\u062f\u0648\u0627\u0631"
+  },
+  {
+   "fieldname": "adwar",
+   "fieldtype": "Select",
+   "label": "\u0643\u0645 \u0639\u062f\u062f \u0627\u0644\u0627\u062f\u0648\u0627\u0631 \u0627\u0644\u0645\u0637\u0644\u0648\u0628\u0629",
+   "options": "\n\u062f\u0648\u0631 \u0648\u0627\u062d\u062f\n\u062f\u0648\u0631\u064a\u0646\n\u062b\u0644\u0627\u062b \u0623\u062f\u0648\u0627\u0631\n\u0633\u0637\u062d\n\u0628\u062f\u0631\u0648\u0645"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2026-04-19 16:58:00.272437",
+ "modified_by": "Administrator",
+ "module": "arm_crm_module",
+ "name": "Building Floors",
+ "owner": "Administrator",
+ "permissions": [],
+ "row_format": "Dynamic",
+ "rows_threshold_for_grid_search": 20,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

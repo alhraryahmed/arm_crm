@@ -5,6 +5,11 @@ app_description = "crm"
 app_email = "alhraryahmed110@gmail.com"
 app_license = "mit"
 
+fixtures = [
+    {"dt": "Client Script", "filters": [["module", "=", "arm_crm"]]},
+    {"dt": "Print Format", "filters": [["module", "=", "arm_crm"]]}
+]
+
 # Apps
 # ------------------
 
@@ -247,3 +252,7 @@ app_license = "mit"
 # List of apps whose translatable strings should be excluded from this app's translations.
 # ignore_translatable_strings_from = []
 
+fixtures = [
+	"Client Script",
+	"Print Format"
+]

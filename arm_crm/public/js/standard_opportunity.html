@@ -1,0 +1,29 @@
+<!--
+    arm_crm/arm_crm/print_format/Opportunity/standard_opportunity.html
+-->
+
+{% extends "templates/print_formats/standard_format.html" %}
+
+{% block header %}
+<div class="row section-break">
+    <div class="col-xs-12">
+        <h2 class="text-center">{{ doc.name }} - عرض فرصة</h2>
+        <p class="text-center">لتطبيق {{ doc.company }}</p>
+    </div>
+</div>
+{% endblock %}
+
+{% block table_content %}
+<table class="table table-bordered table-condensed">
+    <thead>
+        <tr>
+            <th colspan="2">تفاصيل الفرصة</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr><td>اسم الفرصة:</td><td>{{ doc.opportunity_name or "غير محدد" }}</td></tr>
+        <tr><td>المبلغ المتوقع:</td><td>{{ doc.projected_amount or "0.00" }}</td></tr>
+        <tr><td>تاريخ الإغلاق المتوقع:</td><td>{{ doc.closing_date or "غير محدد" }}</td></tr>
+    </tbody>
+</table>
+{% endblock %}
