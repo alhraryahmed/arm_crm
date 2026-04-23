@@ -6,9 +6,11 @@ app_email = "alhraryahmed110@gmail.com"
 app_license = "mit"
 
 fixtures = [
-    {"dt": "Client Script", "filters": [["module", "=", "arm_crm"]]},
-    {"dt": "Print Format", "filters": [["module", "=", "arm_crm"]]}
+    {"dt": "Client Script", "filters": [["module", "=", "arm_crm_module"]]},
+    {"dt": "Print Format", "filters": [["module", "=", "arm_crm_module"]]},
+    {"dt": "Custom HTML Block", "filters": [["module", "=", "arm_crm_module"]]}
 ]
+
 
 # Apps
 # ------------------

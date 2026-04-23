@@ -36,7 +36,25 @@
   "\u0627\u0644\u062e\u0631\u0627\u0626\u0637_section",
   "kha",
   "tasneef",
-  "adwaar"
+  "adwaar",
+  "\u0639\u0646\u0627\u0635\u0631_\u0627\u0644\u0623\u0631\u0636_section",
+  "masaha",
+  "sor",
+  "manaseb",
+  "farq",
+  "rasef",
+  "moj",
+  "\u0648\u062c\u0648\u062f\u0647\u0627",
+  "spa",
+  "far",
+  "noo",
+  "\u0627\u0644\u0639\u0644\u0627\u0642\u0627\u062a_\u0628\u064a\u0646_\u0627\u0644\u0641\u0631\u0627\u063a\u0627\u062a_section",
+  "living_type",
+  "kitchen_type",
+  "dining_type",
+  "relation_type",
+  "\u0641\u0631\u0627\u063a\u0627\u062a_\u0627\u0633\u062a\u0642\u0628\u0627\u0644_\u0627\u0644\u0636\u064a\u0648\u0641_column",
+  "est"
  ],
  "fields": [
   {
@@ -219,12 +237,121 @@
    "fieldtype": "Table",
    "label": "\u0627\u0644\u0623\u062f\u0648\u0627\u0631",
    "options": "Building Floors"
+  },
+  {
+   "fieldname": "\u0639\u0646\u0627\u0635\u0631_\u0627\u0644\u0623\u0631\u0636_section",
+   "fieldtype": "Section Break",
+   "label": "\u0639\u0646\u0627\u0635\u0631 \u0627\u0644\u0623\u0631\u0636"
+  },
+  {
+   "fieldname": "masaha",
+   "fieldtype": "Table",
+   "label": "\u0645\u0627\u0630\u0627 \u064a\u0648\u062c\u062f \u062f\u0627\u062e\u0644 \u0645\u0633\u0627\u062d\u0629 \u0627\u0644\u0623\u0631\u0636",
+   "options": "Land Site Info",
+   "reqd": 1
+  },
+  {
+   "fieldname": "sor",
+   "fieldtype": "Select",
+   "label": "\u0647\u0644 \u064a\u062d\u064a\u0637 \u0628\u0627\u0644\u0623\u0631\u0636 \u0633\u0648\u0631",
+   "options": "\n\u0646\u0639\u0645\n\u0644\u0627\n\u0628\u0639\u0636 \u0645\u0646\u0647\u0627",
+   "reqd": 1
+  },
+  {
+   "fieldname": "manaseb",
+   "fieldtype": "Select",
+   "label": "\u0647\u0644 \u064a\u0648\u062c\u062f \u0645\u0646\u0627\u0633\u064a\u0628 \u0641\u064a \u0627\u0644\u0623\u0631\u0636",
+   "options": "\n\u0646\u0639\u0645\n\u0644\u0627",
+   "reqd": 1
+  },
+  {
+   "fieldname": "farq",
+   "fieldtype": "Select",
+   "label": "\u0647\u0644 \u064a\u0648\u062c\u062f \u0641\u0631\u0642 \u0645\u0646\u0633\u0648\u0628 \u0628\u064a\u0646 \u0627\u0644\u0623\u0631\u0636 \u0648\u0627\u0644\u0634\u0648\u0627\u0631\u0639 \u0627\u0644\u0645\u062d\u064a\u0637\u0629",
+   "options": "\n\u0646\u0639\u0645\n\u0644\u0627",
+   "reqd": 1
+  },
+  {
+   "fieldname": "rasef",
+   "fieldtype": "Select",
+   "label": "\u0647\u0644 \u064a\u0648\u062c\u062f \u0631\u0635\u064a\u0641 \u062d\u0648\u0644 \u0642\u0637\u0639\u0629 \u0627\u0644\u0627\u0631\u0636",
+   "options": "\n\u0646\u0639\u0645\n\u0644\u0627\n\u062c\u0632\u0626\u064a",
+   "reqd": 1
+  },
+  {
+   "fieldname": "moj",
+   "fieldtype": "Table",
+   "label": "\u0648\u0638\u0627\u0626\u0641 \u0627\u0644\u0645\u0628\u0627\u0646\u064a \u0627\u0644\u0645\u062c\u0627\u0648\u0631\u0629",
+   "options": "Land Surroundings",
+   "reqd": 1
+  },
+  {
+   "fieldname": "\u0648\u062c\u0648\u062f\u0647\u0627",
+   "fieldtype": "Section Break",
+   "label": "\u0627\u0644\u0641\u0631\u0627\u063a\u0627\u062a \u0627\u0644\u0645\u0647\u0645\u0629 \u0628\u0627\u0644\u0646\u0633\u0628\u0629 \u0644\u0643 \u0643\u0645 \u0639\u062f\u062f\u0647\u0627 \u0648\u0641\u064a \u0623\u064a \u062f\u0648\u0631 \u062a\u0641\u0636\u0644 \u0648\u062c\u0648\u062f\u0647\u0627"
+  },
+  {
+   "fieldname": "spa",
+   "fieldtype": "Table",
+   "options": "main_spaces"
+  },
+  {
+   "fieldname": "noo",
+   "fieldtype": "HTML",
+   "label": "\u0645\u0644\u0627\u062d\u0638\u0629",
+   "options": "<div style=\"background:#fff3cd;\n    border:1px solid #ffeeba;\n    padding:12px;\n    border-radius:8px;\n    display:flex;\n    align-items:flex-start;\n    font-size:13px;\n    color:#856404;\">\n    <div style=\"font-size:18px;\">\u26a0\ufe0f</div>\n    <div>\n        <strong>\u0645\u0644\u0627\u062d\u0638\u0629:</strong><br>\n        \u0633\u064a\u062a\u0645 \u062a\u0635\u0645\u064a\u0645 \u0627\u0644\u0641\u0631\u0627\u063a \u0641\u064a \u0627\u0644\u0645\u0628\u0646\u0649 \u0637\u0628\u0642\u0627\u064b \u0644\u0644\u0645\u0633\u0627\u062d\u0629 \u0627\u0644\u0645\u062a\u0648\u0641\u0631\u0629.\n    </div>\n</div>"
+  },
+  {
+   "fieldname": "\u0627\u0644\u0639\u0644\u0627\u0642\u0627\u062a_\u0628\u064a\u0646_\u0627\u0644\u0641\u0631\u0627\u063a\u0627\u062a_section",
+   "fieldtype": "Section Break",
+   "label": "\u0627\u0644\u0639\u0644\u0627\u0642\u0627\u062a \u0628\u064a\u0646 \u0627\u0644\u0641\u0631\u0627\u063a\u0627\u062a"
+  },
+  {
+   "fieldname": "living_type",
+   "fieldtype": "Select",
+   "label": "\u0646\u0648\u0639 \u0641\u0631\u0627\u063a \u0627\u0644\u0645\u0639\u064a\u0634\u0629",
+   "options": "\u0641\u0631\u0627\u063a \u0645\u063a\u0644\u0642\n\u0641\u0631\u0627\u063a \u0645\u0641\u062a\u0648\u062d"
+  },
+  {
+   "fieldname": "kitchen_type",
+   "fieldtype": "Select",
+   "label": "\u0646\u0648\u0639 \u0641\u0631\u0627\u063a \u0627\u0644\u0645\u0637\u0628\u062e",
+   "options": "\u0645\u0637\u0628\u062e \u0645\u063a\u0644\u0642\n\u0645\u0637\u0628\u062e \u0645\u0641\u062a\u0648\u062d"
+  },
+  {
+   "fieldname": "dining_type",
+   "fieldtype": "Select",
+   "label": "\u0646\u0648\u0639 \u0641\u0631\u0627\u063a \u063a\u0631\u0641\u0629 \u0627\u0644\u0627\u0643\u0644",
+   "options": "\u0641\u0631\u0627\u063a \u0645\u063a\u0644\u0642\n\u0641\u0631\u0627\u063a \u0645\u0641\u062a\u0648\u062d"
+  },
+  {
+   "fieldname": "relation_type",
+   "fieldtype": "Select",
+   "label": "\u0627\u0644\u0639\u0644\u0627\u0642\u0629 \u0628\u064a\u0646 \u0627\u0644\u0641\u0631\u0627\u063a\u0627\u062a",
+   "options": "\u0645\u0637\u0628\u062e \u0645\u0641\u062a\u0648\u062d \u0639\u0644\u0649 \u0627\u0644\u0645\u0639\u064a\u0634\u0629\n\u0645\u0637\u0628\u062e \u0645\u0641\u062a\u0648\u062d \u0639\u0644\u0649 \u0627\u0644\u0623\u0643\u0644\n\u0627\u0644\u0645\u0639\u064a\u0634\u0629 \u0645\u0641\u062a\u0648\u062d\u0629 \u0639\u0644\u0649 \u0627\u0644\u0645\u0637\u0628\u062e \u0648\u0627\u0644\u0623\u0643\u0644\n\u0627\u0644\u0645\u0639\u064a\u0634\u0629 \u0645\u0641\u062a\u0648\u062d\u0629 \u0639\u0644\u0649 \u0627\u0644\u0623\u0643\u0644"
+  },
+  {
+   "fieldname": "far",
+   "fieldtype": "Table",
+   "label": "\u0641\u0631\u0627\u063a\u0627\u062a \u0623\u062e\u0631\u0649",
+   "options": "additional_spaces"
+  },
+  {
+   "fieldname": "\u0641\u0631\u0627\u063a\u0627\u062a_\u0627\u0633\u062a\u0642\u0628\u0627\u0644_\u0627\u0644\u0636\u064a\u0648\u0641_column",
+   "fieldtype": "Column Break",
+   "label": "\u0641\u0631\u0627\u063a\u0627\u062a \u0627\u0633\u062a\u0642\u0628\u0627\u0644 \u0627\u0644\u0636\u064a\u0648\u0641"
+  },
+  {
+   "fieldname": "est",
+   "fieldtype": "Table",
+   "label": "\u0641\u0631\u0627\u063a\u0627\u062a \u0627\u0633\u062a\u0642\u0628\u0627\u0644 \u0627\u0644\u0636\u064a\u0648\u0641",
+   "options": "guest_spaces"
   }
  ],
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2026-04-19 16:50:24.847061",
+ "modified": "2026-04-23 19:33:12.628650",
  "modified_by": "Administrator",
  "module": "arm_crm_module",
  "name": "Building Survey",
