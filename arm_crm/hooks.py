@@ -6,18 +6,10 @@ app_email = "alhraryahmed110@gmail.com"
 app_license = "mit"
 
 fixtures = [
-    {
-        "dt": "Client Script"
-    },
-    {
-        "dt": "Print Format"
-    },
-    {
-        "dt": "Custom Block"
-    },
-    {
-        "dt": "Web Form"
-    }
+    {"dt": "Client Script"},
+    {"dt": "Print Format"},
+    {"dt": "Web Form"},
+    {"dt": "Custom HTML Block"}
 ]
 
 # Apps
