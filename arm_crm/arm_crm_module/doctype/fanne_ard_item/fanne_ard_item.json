@@ -1,0 +1,73 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2026-05-01 20:17:57.439200",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "\u0639\u0646\u0627\u0635\u0631_\u0627\u0644\u0639\u0631\u0636_\u0627\u0644\u0641\u0646\u064a_section",
+  "item_groub",
+  "item_codee",
+  "land_area",
+  "price_from",
+  "price_to"
+ ],
+ "fields": [
+  {
+   "fieldname": "\u0639\u0646\u0627\u0635\u0631_\u0627\u0644\u0639\u0631\u0636_\u0627\u0644\u0641\u0646\u064a_section",
+   "fieldtype": "Section Break",
+   "label": "\u0639\u0646\u0627\u0635\u0631 \u0627\u0644\u0639\u0631\u0636 \u0627\u0644\u0641\u0646\u064a"
+  },
+  {
+   "fieldname": "land_area",
+   "fieldtype": "Float",
+   "in_standard_filter": 1,
+   "label": "\u0627\u0644\u0645\u0633\u0627\u062d\u0629"
+  },
+  {
+   "fieldname": "price_from",
+   "fieldtype": "Currency",
+   "in_standard_filter": 1,
+   "label": "\u0633\u0639\u0631 \u0627\u0644\u0645\u062a\u0631 \u0645\u0646"
+  },
+  {
+   "fieldname": "price_to",
+   "fieldtype": "Currency",
+   "in_list_view": 1,
+   "label": "\u0633\u0639\u0631 \u0627\u0644\u0645\u062a\u0631 \u0625\u0644\u0649"
+  },
+  {
+   "bold": 1,
+   "fieldname": "item_codee",
+   "fieldtype": "Link",
+   "in_global_search": 1,
+   "in_list_view": 1,
+   "label": "\u0627\u0644\u0639\u0646\u0635\u0631",
+   "options": "Item"
+  },
+  {
+   "bold": 1,
+   "fieldname": "item_groub",
+   "fieldtype": "Link",
+   "in_global_search": 1,
+   "in_list_view": 1,
+   "label": "\u0645\u062c\u0645\u0648\u0639\u0629 \u0627\u0644\u0639\u0646\u0627\u0635\u0631",
+   "options": "Item Group"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2026-05-01 21:17:15.358981",
+ "modified_by": "Administrator",
+ "module": "arm_crm_module",
+ "name": "fanne ard item",
+ "owner": "Administrator",
+ "permissions": [],
+ "row_format": "Dynamic",
+ "rows_threshold_for_grid_search": 20,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
