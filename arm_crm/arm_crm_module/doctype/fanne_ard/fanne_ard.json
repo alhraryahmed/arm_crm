@@ -29,7 +29,6 @@
   "\u0627\u0644\u062a\u0633\u0639\u064a\u0631\u0629_section",
   "ard",
   "total_from",
-  "total_to",
   "\u0645\u0644\u0627\u062d\u0638\u0627\u062a",
   "amended_from"
  ],
@@ -84,7 +83,7 @@
    "in_list_view": 1,
    "in_standard_filter": 1,
    "label": "\u0646\u0648\u0639 \u0627\u0644\u0637\u0644\u0628",
-   "options": "\n\u0628\u0646\u0627\u0621\n\u0635\u064a\u0627\u0646\u0629",
+   "options": "\n\u062a\u0635\u0645\u064a\u0645\n\u062a\u0646\u0641\u064a\u0630",
    "print_hide": 1,
    "reqd": 1
   },
@@ -124,12 +123,7 @@
   {
    "fieldname": "total_from",
    "fieldtype": "Currency",
-   "label": "\u0627\u0644\u0633\u0639\u0631 \u0627\u0644\u0627\u062c\u0645\u0627\u0644\u064a \u0645\u0646"
-  },
-  {
-   "fieldname": "total_to",
-   "fieldtype": "Currency",
-   "label": "\u0627\u0644\u0633\u0639\u0631 \u0627\u0644\u0627\u062c\u0645\u0627\u0644\u064a \u0625\u0644\u0649"
+   "label": "\u0627\u0644\u0633\u0639\u0631 \u0627\u0644\u0627\u062c\u0645\u0627\u0644\u064a"
   },
   {
    "fieldname": "\u0645\u0644\u0627\u062d\u0638\u0627\u062a",
@@ -200,7 +194,7 @@
  "index_web_pages_for_search": 1,
  "is_submittable": 1,
  "links": [],
- "modified": "2026-05-02 01:31:44.526600",
+ "modified": "2026-05-15 15:41:27.804596",
  "modified_by": "Administrator",
  "module": "arm_crm_module",
  "name": "fanne ard",
