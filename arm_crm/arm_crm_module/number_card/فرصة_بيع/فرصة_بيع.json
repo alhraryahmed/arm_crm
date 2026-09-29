@@ -1,7 +1,7 @@
 {
  "aggregate_function_based_on": "",
- "background_color": "#39E4A5",
- "color": "#29CD42",
+ "background_color": "#acd0f2",
+ "color": "#618bab",
  "creation": "2026-04-12 21:25:39.883148",
  "currency": "LYD",
  "docstatus": 0,
@@ -14,7 +14,7 @@
  "is_public": 1,
  "is_standard": 1,
  "label": "\u0641\u0631\u0635\u0629 \u0628\u064a\u0639",
- "modified": "2026-04-20 19:36:34.329029",
+ "modified": "2026-05-16 23:23:08.034105",
  "modified_by": "Administrator",
  "module": "arm_crm_module",
  "name": "\u0641\u0631\u0635\u0629 \u0628\u064a\u0639",
